@@ -20,3 +20,5 @@ end
 
 # até 10 segungos para achar um elemento
 Capybara.default_max_wait_time = 10
+# Maximiza o browser em execução
+Capybara.page.driver.browser.manage.window.maximize
