@@ -4,7 +4,7 @@ end
                                                                               
 Quando("faço uma requisição para consultar o exame {string}") do |nome_exame|     
   @nome_exame = nome_exame
-  @resposta_requisicao = @buscar_exames.buca_exames(@nome_exame, @enderco_api)
+  @resposta_requisicao = @buscar_exames.busca_exames(@nome_exame, @enderco_api)
 end                                                                           
                                                                               
 Então("devo receber o código de resposta HTTP {int}") do |codigo_resposta|                
