@@ -19,6 +19,6 @@ class BuscarExames
     end
     
     def resultado_busca
-        retorno_busca = find('div.row.tabela-resultado-busca.tabela-lista')
+        retorno_busca = find('div.tabela-resultado-busca.tabela-lista')  #find('div.row.tabela-resultado-busca.tabela-lista')
     end
 end
